@@ -36,7 +36,7 @@ view model { userConsentChanged, userNameChanged, userDateChanged } =
         [ Html.Attributes.class "font-bold" ]
         [ Html.text "Title of Study: " ]
       , Html.span []
-        [ Html.text "Understanding Programming Practice in Audio Software Programming" ]
+        [ Html.text "Understanding Programming Practice in the Elm Community" ]
       ]
     , Html.p 
       [ Html.Attributes.class "mb-2" ]
