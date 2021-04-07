@@ -1,0 +1,478 @@
+{
+  "userData": {
+    "name": "David Sanchez",
+    "date": "13/03/20",
+    "consent": {
+      "type": "UserConsent",
+      "explained": true,
+      "withdrawal": true,
+      "understand": true,
+      "personalData": true
+    }
+  },
+  "demographics": [
+    {
+      "type": "SingleResponse",
+      "question": "How old are you?",
+      "response": {
+        "type": "Fixed",
+        "text": "25-34 years old"
+      },
+      "options": [
+        {
+          "type": "Fixed",
+          "text": "Under 18"
+        },
+        {
+          "type": "Fixed",
+          "text": "18-24 years old"
+        },
+        {
+          "type": "Fixed",
+          "text": "25-34 years old"
+        },
+        {
+          "type": "Fixed",
+          "text": "35-44 years old"
+        },
+        {
+          "type": "Fixed",
+          "text": "45-54 years old"
+        },
+        {
+          "type": "Fixed",
+          "text": "Over 55"
+        }
+      ]
+    },
+    {
+      "type": "SingleResponse",
+      "question": "What is the highest educational qualification you have attained?",
+      "response": {
+        "type": "Fixed",
+        "text": "Completed Second qualification (e.g A levels/ High School)"
+      },
+      "options": [
+        {
+          "type": "Fixed",
+          "text": "Did not complete any school qualification"
+        },
+        {
+          "type": "Fixed",
+          "text": "Completed first school qualification at about 16 years (e.g.  GCSE/Junior High School)"
+        },
+        {
+          "type": "Fixed",
+          "text": "Completed Second qualification (e.g A levels/ High School)"
+        },
+        {
+          "type": "Fixed",
+          "text": "Undergraduate degree or professional qualification"
+        },
+        {
+          "type": "Fixed",
+          "text": "Master's or taught postgraduate degree"
+        },
+        {
+          "type": "Fixed",
+          "text": "Doctorate or reserach postgraduate degree"
+        }
+      ]
+    },
+    {
+      "type": "SingleResponse",
+      "question": "If you are still in education, what is the highest qualification you expect to obtain?",
+      "response": {
+        "type": "Fixed",
+        "text": "Not applicable"
+      },
+      "options": [
+        {
+          "type": "Fixed",
+          "text": "First school qualification (e.g.  GCSE / Junior High School)"
+        },
+        {
+          "type": "Fixed",
+          "text": "Post-16 vocational course"
+        },
+        {
+          "type": "Fixed",
+          "text": "Second school qualification (e.g.  A-levels / High School)"
+        },
+        {
+          "type": "Fixed",
+          "text": "Undergraduate degree or professional qualification"
+        },
+        {
+          "type": "Fixed",
+          "text": "Master's or taught postgraduate degree"
+        },
+        {
+          "type": "Fixed",
+          "text": "Doctorate or reserach postgraduate degree"
+        },
+        {
+          "type": "Fixed",
+          "text": "Not applicable"
+        }
+      ]
+    },
+    {
+      "type": "MultipleResponseWithOther",
+      "question": "What was/is your primary field of study?",
+      "response": [
+        {
+          "type": "Fixed",
+          "text": "Music, Music Technology, or related field of study"
+        }
+      ],
+      "options": [
+        {
+          "type": "Fixed",
+          "text": "Computer Science, Software Engineering, or related field of study"
+        },
+        {
+          "type": "Fixed",
+          "text": "Music, Music Technology, or related field of study"
+        },
+        {
+          "type": "Fixed",
+          "text": "Not applicable"
+        }
+      ]
+    },
+    {
+      "type": "SingleResponse",
+      "question": "What is your current occupational status?",
+      "response": {
+        "type": "Fixed",
+        "text": "In full-time employment – audio software related"
+      },
+      "options": [
+        {
+          "type": "Fixed",
+          "text": "Student"
+        },
+        {
+          "type": "Fixed",
+          "text": "In full-time employment – audio software related"
+        },
+        {
+          "type": "Fixed",
+          "text": "In full-time employment – not audio software related"
+        },
+        {
+          "type": "Fixed",
+          "text": "In part-time employment – audio software related"
+        },
+        {
+          "type": "Fixed",
+          "text": "In part-time employment – not audio software related"
+        },
+        {
+          "type": "Fixed",
+          "text": "Self-employed – audio software related"
+        },
+        {
+          "type": "Fixed",
+          "text": "Self-employed – not audio software related"
+        },
+        {
+          "type": "Fixed",
+          "text": "Homemaker / full-time parent"
+        },
+        {
+          "type": "Fixed",
+          "text": "Unemployed"
+        },
+        {
+          "type": "Fixed",
+          "text": "Retired"
+        }
+      ]
+    },
+    {
+      "type": "SingleResponse",
+      "question": "How many years experience do you have programming?",
+      "response": {
+        "type": "Fixed",
+        "text": "Over 5 years"
+      },
+      "options": [
+        {
+          "type": "Fixed",
+          "text": "Less than 1 year"
+        },
+        {
+          "type": "Fixed",
+          "text": "1 to 2 years"
+        },
+        {
+          "type": "Fixed",
+          "text": "2 to 5 years"
+        },
+        {
+          "type": "Fixed",
+          "text": "Over 5 years"
+        }
+      ]
+    },
+    {
+      "type": "SingleResponse",
+      "question": "How many years experience do you have writing interactive audio software specifically?",
+      "response": {
+        "type": "Fixed",
+        "text": "Over 5 years"
+      },
+      "options": [
+        {
+          "type": "Fixed",
+          "text": "Less than 1 year"
+        },
+        {
+          "type": "Fixed",
+          "text": "1 to 2 years"
+        },
+        {
+          "type": "Fixed",
+          "text": "2 to 5 years"
+        },
+        {
+          "type": "Fixed",
+          "text": "Over 5 years"
+        }
+      ]
+    },
+    {
+      "type": "MultipleResponseWithOther",
+      "question": "Which of the following languages or frameworks have you used for creating interactive audio software?",
+      "response": [
+        {
+          "type": "Fixed",
+          "text": "Pure Data"
+        },
+        {
+          "type": "Fixed",
+          "text": "Max/MSP"
+        },
+        {
+          "type": "Fixed",
+          "text": "JUCE [C++]"
+        }
+      ],
+      "options": [
+        {
+          "type": "Fixed",
+          "text": "AudioKit [Swift]"
+        },
+        {
+          "type": "Fixed",
+          "text": "Csound"
+        },
+        {
+          "type": "Fixed",
+          "text": "FAUST"
+        },
+        {
+          "type": "Fixed",
+          "text": "JUCE [C++]"
+        },
+        {
+          "type": "Fixed",
+          "text": "Max/MSP"
+        },
+        {
+          "type": "Fixed",
+          "text": "Processing"
+        },
+        {
+          "type": "Fixed",
+          "text": "Pure Data"
+        },
+        {
+          "type": "Fixed",
+          "text": "Reaktor"
+        },
+        {
+          "type": "Fixed",
+          "text": "SuperCollider"
+        },
+        {
+          "type": "Fixed",
+          "text": "Web Audio API [JavaScript]"
+        }
+      ]
+    },
+    {
+      "type": "SingleResponseWithOther",
+      "question": "Which of the following languages or frameworks do you have the most experience creating interactive audio software with?",
+      "response": {
+        "type": "Fixed",
+        "text": "Max/MSP"
+      },
+      "options": [
+        {
+          "type": "Fixed",
+          "text": "AudioKit [Swift]"
+        },
+        {
+          "type": "Fixed",
+          "text": "Csound"
+        },
+        {
+          "type": "Fixed",
+          "text": "FAUST"
+        },
+        {
+          "type": "Fixed",
+          "text": "JUCE [C++]"
+        },
+        {
+          "type": "Fixed",
+          "text": "Max/MSP"
+        },
+        {
+          "type": "Fixed",
+          "text": "Processing"
+        },
+        {
+          "type": "Fixed",
+          "text": "Pure Data"
+        },
+        {
+          "type": "Fixed",
+          "text": "Reaktor"
+        },
+        {
+          "type": "Fixed",
+          "text": "SuperCollider"
+        },
+        {
+          "type": "Fixed",
+          "text": "Web Audio API [JavaScript]"
+        }
+      ]
+    }
+  ],
+  "likertScales": [
+    {
+      "title": "In a typical audio programming project, how well defined is the end goal?",
+      "description": "Some programmers have a very clear idea of what the finished piece of software should look like and what it should do. Others take a more exploratory approach. The following statements are about how clearly defined the end-goal of a project is before you start programming.",
+      "statements": [
+        {
+          "rating": "Strongly Agree",
+          "statement": "Before starting to program I have a clear idea what the program will look like."
+        },
+        {
+          "rating": "Agree",
+          "statement": "Before starting to program I have a clear idea how the program will work."
+        },
+        {
+          "rating": "Neutral",
+          "statement": "Before starting to program I have a clear idea how to organise my code."
+        },
+        {
+          "rating": "Agree",
+          "statement": "Before starting to program I write down what I need to do."
+        },
+        {
+          "rating": "Disagree",
+          "statement": "Before starting to program I sketch or wireframe how the program will look."
+        },
+        {
+          "rating": "Strongly Disagree",
+          "statement": "It is not usually possible to define a project's requirements before starting a project."
+        },
+        {
+          "rating": "Disagree",
+          "statement": "I start out by trying a large number of variations of a loose idea before settling on something more concrete."
+        }
+      ],
+      "ratings": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    {
+      "title": "How much time do you spend on, and how big is, a typical finished audio programming project?",
+      "description": "Some programmers work on projects for many months or even years. Others prefer to work on a project for just a matter of days or hours. The following statements are about how long a typical project takes before you consider it complete, and how large the codebase is when it is finished.",
+      "statements": [
+        {
+          "rating": "Disagree",
+          "statement": "A typical project takes a significant amount of time to complete."
+        },
+        {
+          "rating": "Agree",
+          "statement": "A finished project's codebase tends to span multiple files and many lines of code."
+        },
+        {
+          "rating": "Strongly Disagree",
+          "statement": "I tend to consider a project finished after one or two sessions of programming."
+        },
+        {
+          "rating": "Strongly Disagree",
+          "statement": "A finished project's codebase tends to be made up of just one or two files."
+        },
+        {
+          "rating": "Strongly Agree",
+          "statement": "I often edit and re-run the same pieces of code multiple times to see how it changes."
+        },
+        {
+          "rating": "Agree",
+          "statement": "I comment out old bits of code in case I need to go back to them."
+        },
+        {
+          "rating": "Agree",
+          "statement": "I regularly check my code into version control systems such as Git or SVN."
+        }
+      ],
+      "ratings": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    },
+    {
+      "title": "How much does a typical audio programming project change from beginning to end?",
+      "description": "It is not uncommon for a project to change over time. This can be because requirements change, because we come up with new and interesting ideas, or because an just didn't work out how we expected it to. The following statements are about how a typical project typically changes over time and what the causes for that might be.",
+      "statements": [
+        {
+          "rating": "Disagree",
+          "statement": "A project is only finished when all my tests pass."
+        },
+        {
+          "rating": "Disagree",
+          "statement": "I think non-critical bugs can lead to unexpected behaviour that can make a project better or more interesting."
+        },
+        {
+          "rating": "Disagree",
+          "statement": "The primary method of interaction in a program has often changed by the time that project is finished."
+        },
+        {
+          "rating": "Agree",
+          "statement": "The primary audio output of a program has often changed by the time that project is finished."
+        },
+        {
+          "rating": "Agree",
+          "statement": "I am constantly re-evaluating how the system or program should behave."
+        },
+        {
+          "rating": "Strongly Agree",
+          "statement": "Working on a project is a creative feedback-loop between the computer and myself."
+        }
+      ],
+      "ratings": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ]
+    }
+  ]
+}
