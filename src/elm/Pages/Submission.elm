@@ -33,7 +33,7 @@ view data { update, submit } =
       [ Html.text
           <| "Thank you for taking part in our study on programming practice in "
           ++ "the Elm community. If you're interested in being part of "
-          ++ "further studies on this topic in the future, you can enter your "
+          ++ "further studies on this topic in the future, you can enter your email "
           ++ "down below. If not, you're done! You can safely navigate away from "
           ++ "this page."
       ]
